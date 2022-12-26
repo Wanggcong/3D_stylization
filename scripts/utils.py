@@ -185,6 +185,7 @@ def render(scene, renderables, color, mode, frame_path=None):
 
 def scene_from_args(args):
     # Create the scene and the behaviour list for simple-3dviz
+    print('###################### args.background:', args.background)
     scene = Scene(size=args.window_size, background=args.background)
     scene.up_vector = args.up_vector
     scene.camera_target = args.camera_target
