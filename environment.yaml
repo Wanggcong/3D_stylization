@@ -1,4 +1,4 @@
-name: atiss3
+name: atiss4
 channels:
   - conda-forge
   - pytorch
